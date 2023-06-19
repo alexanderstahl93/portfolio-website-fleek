@@ -80,6 +80,7 @@ code {
 
 .header__content button {
   margin: 25px auto 0;
+  color: #FFFFFF;
 }
 
 /* ------------------------------------------------------ */
@@ -123,7 +124,7 @@ code {
 
   padding: 20px;
 
-  border: 1px solid #0088BB;
+  border: 1px solid #009490;
   border-radius: 8px;
 }
 
@@ -148,6 +149,7 @@ code {
 
 .projects__card .button {
   margin: 10px 5px 0;
+  color: #FFFFFF;
 }
 
 /* ------------------------------------------------------ */
@@ -177,7 +179,8 @@ code {
 }
 
 .social .button {
-  margin: 0 15px;
+  margin: 0 10px 15px 0px;
+  color:#FFFFFF;
 }
 
 /* ------------------------------------------------------ */
@@ -185,6 +188,7 @@ code {
 .footer {
   margin: 0 auto;
   text-align: center;
+  color: #009490;
 }
 
 /* ------------------------------------------------------ */
@@ -192,7 +196,7 @@ code {
 .button {
   display: inline-block;
 
-  background: #12BDF3;
+  background: #009490;
 
   padding: 15px 50px;
 
@@ -210,6 +214,6 @@ code {
 }
 
 .button:hover {
-  background: #0088BB;
+  background: #009490;
   color: #FFFFFF;
 }

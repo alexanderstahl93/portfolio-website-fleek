@@ -6,14 +6,8 @@ const About = () => {
         <section className='about'>
             <h2>About Me</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Neque, pariatur odio.
-                Maxime, labore nihil illo ea voluptate suscipit aliquid animi
-                possimus laudantium fugit obcaecati harum?
-                Assumenda maiores nam magnam animi? Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Eaque voluptatibus vitae, rem corrupti id consectetur!
-                Sapiente laboriosam nam excepturi exercitationem natus unde, harum
-                consequatur vero amet consectetur quod sunt autem!
+            Highly motivated and adaptable professional with a successful transition from over a decade-long career in retail and sales to the dynamic fields of AI and blockchain. Committed to leveraging emerging technologies to develop innovative solutions that drive business growth and contribute to societal advancement.
+            If you're looking for a highly skilled and driven individual who can create meaningful solutions by leveraging AI and blockchain technologies, feel free to connect with me. Let's collaborate and drive innovation together for a better future.
             </p>
         </section>
     );

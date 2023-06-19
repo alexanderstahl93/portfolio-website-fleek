@@ -2,26 +2,12 @@ const Experience = () => {
     return (
         <div className="experience">
             <h2>Experience</h2>
-
+            <p>Find my full Experience timeline on <a href="https://www.linkedin.com/in/alexander-s-b800b6205/">LinkedIn</a>.</p>
             <ul>
                 <li>
-                    <i>Clayton State University</i>, 2014-2018
+                    <i>FernUniversität in Hagen</i>, 2022-2025
                     <ul>
-                        <li>Graduated with 3.00 GPA</li>
-                    </ul>
-                </li>
-                <li>
-                    <i>TechFlow</i> - <strong>Blockchain Developer Intern</strong>, 2018-2019
-                    <ul>
-                        <li>Studied DApp development</li>
-                        <li>Assisted Research &amp; Development on Web3 Products</li>
-                    </ul>
-                </li>
-                <li>
-                    <i>SpiderChain</i> - <strong>Blockchain Developer</strong>, 2019-2022
-                    <ul>
-                        <li>Contributed to smart contract development on client's platform</li>
-                        <li>Peer reviewed &amp; Audited Solidity code</li>
+                        <li><a href="https://www.fernuni-hagen.de/wirtschaftswissenschaft/studium/bachelor_winf/index.shtml">Bachelor of Science - BS, Business Informatics</a></li>
                     </ul>
                 </li>
             </ul>
