@@ -1,6 +1,7 @@
 // Import Assets
 import React, { useState } from 'react';
 import whale from '../assets/whale.jpg';
+import sentiment from '../assets/sentiment_anly.jpg';
 
 const Projects = () => {
     // Define the available categories
@@ -16,7 +17,14 @@ const Projects = () => {
         category: 'Blockchain Projects',
         description: 'The Crypto Whale Tracker is designed to track large transfers of USDC (USD Coin) tokens on the Ethereum blockchain.',
         image: whale,
-        githubLink: 'https://github.com/alexanderstahl93/crypto-whale-tracker/tree/master'
+        githubLink: 'https://github.com/alexanderstahl93/crypto-whale-tracker'
+      },
+      {
+        name: 'Simple Sentiment Analysis',
+        category: 'AI Projects',
+        description: 'Python scripts perform sentiment analysis. I used the "textblob" and "newspaper" libraries that allowed me work with natural language processing.',
+        image: sentiment,
+        githubLink: 'https://github.com/alexanderstahl93/Simple-Sentiment-Text-Analysis-in-Python'
       },
       // Add more project entries here
     ];
