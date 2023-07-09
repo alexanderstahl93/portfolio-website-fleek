@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import whale from '../assets/whale.jpg';
 import sentiment from '../assets/sentiment_anly.jpg';
+import ethereumpic from '../assets/ethereum.png';
 
 const Projects = () => {
     // Define the available categories
@@ -26,6 +27,13 @@ const Projects = () => {
         image: sentiment,
         githubLink: 'https://github.com/alexanderstahl93/Simple-Sentiment-Text-Analysis-in-Python'
       },
+      {
+      name: 'Simple Ethereum Wallet',
+      category: 'Blockchain Projects',
+      description: 'This is a simple Ethereum wallet project using Truffle, Solidity, and Web3.js. It demonstrates the creation of a smart contract and its interaction via a web interface.',
+      image: ethereumpic,
+      githubLink: 'https://github.com/alexanderstahl93/ethereumwallet'
+    },
       // Add more project entries here
     ];
   
