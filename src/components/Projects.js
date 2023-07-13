@@ -1,8 +1,10 @@
 // Import Assets
 import React, { useState } from 'react';
+
 import whale from '../assets/whale.jpg';
 import sentiment from '../assets/sentiment_anly.jpg';
 import ethereumpic from '../assets/ethereum.png';
+import bitcoinlstm from '../assets/bitcoinlstm.png';
 
 const Projects = () => {
     // Define the available categories
@@ -21,18 +23,25 @@ const Projects = () => {
         githubLink: 'https://github.com/alexanderstahl93/crypto-whale-tracker'
       },
       {
-        name: 'Simple Sentiment Analysis',
+        name: 'Sentiment Analysis',
         category: 'AI Projects',
         description: 'Python scripts perform sentiment analysis. I used the "textblob" and "newspaper" libraries that allowed me work with natural language processing.',
         image: sentiment,
         githubLink: 'https://github.com/alexanderstahl93/Simple-Sentiment-Text-Analysis-in-Python'
       },
       {
-      name: 'Simple Ethereum Wallet',
+      name: 'Ethereum Wallet',
       category: 'Blockchain Projects',
       description: 'This is a simple Ethereum wallet project using Truffle, Solidity, and Web3.js. It demonstrates the creation of a smart contract and its interaction via a web interface.',
       image: ethereumpic,
       githubLink: 'https://github.com/alexanderstahl93/ethereumwallet'
+    },
+    {
+      name: 'BTC Price Prediction with LSTM',
+      category: 'AI Projects',
+      description: 'This project uses a Long Short-Term Memory (LSTM) model, a type of recurrent neural network, to predict the future price of Bitcoin.',
+      image: bitcoinlstm,
+      githubLink: 'https://github.com/alexanderstahl93/Bitcoin-Price-Prediction-with-LSTM'
     },
       // Add more project entries here
     ];
