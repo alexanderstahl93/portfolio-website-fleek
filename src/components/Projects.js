@@ -5,6 +5,7 @@ import whale from '../assets/whale.jpg';
 import sentiment from '../assets/sentiment_anly.jpg';
 import ethereumpic from '../assets/ethereum.png';
 import bitcoinlstm from '../assets/bitcoinlstm.png';
+import breastcancer from '../assets/breastcancer.png';
 
 const Projects = () => {
     // Define the available categories
@@ -21,6 +22,13 @@ const Projects = () => {
         description: 'The Crypto Whale Tracker is designed to track large transfers of USDC (USD Coin) tokens on the Ethereum blockchain.',
         image: whale,
         githubLink: 'https://github.com/alexanderstahl93/crypto-whale-tracker'
+      },
+      {
+        name: 'Breast Cancer Diagnosis Prediction',
+        category: 'AI Projects',
+        description: 'The script is a step-by-step guide for training and evaluating a Logistic Regression model to predict the diagnosis of breast tumors.',
+        image: breastcancer,
+        githubLink: 'https://github.com/alexanderstahl93/Breast-Cancer-Diagnosis-Prediction'
       },
       {
         name: 'Sentiment Analysis',
@@ -56,7 +64,7 @@ const Projects = () => {
   
     return (
       <section className="projects">
-        <h2>My Projects</h2>
+        <h2>Personal Projects</h2>
   
         <div className="filter">
           <label htmlFor="category">Filter by Category:</label>
