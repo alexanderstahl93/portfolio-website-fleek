@@ -11,8 +11,19 @@ const Header = () => {
             <MatrixBackground />  
 
                 <h1>Hi, I'm Alexander</h1>
-                <p>Practical Hands-On AI & Blockchain Development.</p>
-                <a href="mailto:info@alexanderstahl.at" className="button">Get in touch</a>
+                <p>Transforming Ideas into Reality with AI & Blockchain.</p>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                <a 
+                    href="#" 
+                    onClick={(e) => {
+                        e.preventDefault();
+                        window.Calendly.initPopupWidget({url: 'https://calendly.com/alexanderstahl/30min'});
+                        return false;
+                    }} 
+                    className="button"
+                >
+                    Schedule a Consultation
+                </a>
             </div>
         </section>
     );
