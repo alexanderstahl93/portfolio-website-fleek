@@ -1,6 +1,7 @@
 // Import Assets
 import MatrixBackground from './MatrixBackground';
 import profile from '../assets/profile_new.png';
+import { motion } from 'framer-motion';
 
 const Header = () => {
     return (
@@ -13,17 +14,19 @@ const Header = () => {
                 <h1>Hi, I'm Alexander</h1>
                 <p>Transforming Ideas into Reality with AI & Blockchain.</p>
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a 
+                <motion.a 
                     href="#" 
                     onClick={(e) => {
                         e.preventDefault();
                         window.Calendly.initPopupWidget({url: 'https://calendly.com/alexanderstahl/30min'});
                         return false;
                     }} 
-                    className="button"
+                    className="schedulebutton"
+                    whileHover={{ scale: 1.3 }}
+                    whileTap={{ scale: 0.6 }}
                 >
                     Schedule a Consultation
-                </a>
+                </motion.a>
             </div>
         </section>
     );

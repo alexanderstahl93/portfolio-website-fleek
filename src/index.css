@@ -45,6 +45,33 @@ code {
 /* ------------------------------------------------------ */
 /* -- Header -- */
 
+.schedulebutton {
+  display: inline-block;
+
+  background: #FFFFFF;
+  color: #009490;;
+  margin: 15px 15px 0px 0px;
+
+  padding: 15px 50px;
+
+  border: none;
+  border-radius: 8px;
+
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition: all 250ms ease;
+}
+
+.schedulebutton:hover {
+  background: #009490;
+  color: #FFFFFF;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -56,7 +83,6 @@ code {
 .header img {
   max-width: 300px;
   height: auto;
-
   margin: 20px auto;
 
 }
@@ -144,17 +170,18 @@ code {
 
 .projects__card {
   max-width: 350px;
-  min-height: 500px; /* adjust this value to what suits your design */
+  min-height: 500px; 
   padding: 20px;
   border: 1px solid #009490;
   border-radius: 8px;
-  background: #FFFFFF;
+  background: rgba(255, 255, 255, 0.7); 
   display: flex;
   justify-content: flex-start;
-  align-items: stretch; /* add this line */
+  align-items: stretch; 
   flex-wrap: wrap;
   gap: 20px;
 }
+
 
 
 
@@ -228,9 +255,14 @@ code {
   color: #FFFFFF;
 }
 
-.social .button {
+.socialbutton {
   margin: 0 10px 15px 0px;
-  color:#009490;
+  color:#FFFFFF;
+  font-size: x-large;
+}
+
+.socialbutton:hover {
+  color: #009490;
 }
 
 .filter {
