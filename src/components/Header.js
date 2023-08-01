@@ -12,7 +12,7 @@ const Header = () => {
             <MatrixBackground />  
 
                 <h1>Hi, I'm Alexander</h1>
-                <p>Transforming Ideas into Reality with AI & Blockchain.</p>
+                <p>I Am Solving Problems with AI-Powered Solutions.</p>
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <motion.a 
                     href="#" 

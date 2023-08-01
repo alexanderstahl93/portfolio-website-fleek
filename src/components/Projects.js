@@ -5,6 +5,7 @@ import sentiment from '../assets/sentiment_anly.png';
 import ethereumpic from '../assets/ethereum.png';
 import bitcoinlstm from '../assets/bitcoinlstm.png';
 import breastcancer from '../assets/breastcancer.png';
+import streamlit from '../assets/streamlitapp.jpg';
 
 const Projects = () => {
     // Define the available categories
@@ -15,6 +16,13 @@ const Projects = () => {
   
     // Define the project data with categories
     const projects = [
+      {
+        name: 'Demand Forecasting',
+        category: 'AI Projects',
+        description: 'The scripts use a combination of ML and data analysis techniques for business analytics and forecasting in a B2C Solar Energy Company.',
+        image: streamlit,
+        githubLink: 'https://github.com/alexanderstahl93/aienergybusinessapp'
+      },
       {
         name: 'Crypto Whale Tracker',
         category: 'Blockchain Projects',
@@ -77,6 +85,7 @@ const Projects = () => {
           {filteredProjects.map(project => (
             <div className="projects__card" key={project.name}>
               <h3>{project.name}</h3>
+              <h4 category>{project.category}</h4> 
               <img src={project.image} alt={project.name} />
               <p>{project.description}</p>
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="button">GitHub</a>

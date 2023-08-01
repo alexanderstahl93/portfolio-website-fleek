@@ -182,9 +182,6 @@ code {
   gap: 20px;
 }
 
-
-
-
 .projects__card h3 {
   font-size: 32px;
   font-weight: 600;
@@ -192,9 +189,26 @@ code {
   color: #009490;
 }
 
+
 .projects__card p {
   font-size: 16px;
-  margin: 20px 0;
+  margin: 0;
+  color: #009490;
+}
+
+.projects__card h4 {
+  font-size: 16px;
+  margin: 0;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+.project-category {
+  font-size: 45px;
+  margin: 0;
+  padding: 0;
   color: #009490;
 }
 
